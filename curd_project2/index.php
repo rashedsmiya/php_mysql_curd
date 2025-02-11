@@ -8,5 +8,7 @@
         echo "Database connection sucessfull";
     }
 
+    $sql  = "SELECT  * FROM student";
+    
 
-
+    
