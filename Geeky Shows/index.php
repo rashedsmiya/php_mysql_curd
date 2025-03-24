@@ -10,7 +10,7 @@
 
      <?php 
      
-         echo "Good";
+         echo "Good Morning";
 
      ?>
 
