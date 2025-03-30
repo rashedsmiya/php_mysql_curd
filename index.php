@@ -1,8 +1,5 @@
 <?php 
 
-   $name = 'Hasan';
-   $age = 23;
+     echo "Go";
 
-   echo "My name is $name. I am $age years old";
 
-?>
