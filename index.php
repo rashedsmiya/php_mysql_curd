@@ -1,5 +1,4 @@
 <?php
-
 //     $short_desc = "Hadi is bad boy";
 
 //     echo str_word_count($short_desc);
@@ -264,5 +263,86 @@
 <!--      <button type="submit">Check</button>-->
 <!--</form>-->
 <!--    -->
-sss
+
+
+<!--<h2>Menu</h2> -->
+<!--<form method="post">-->
+<!--     <label for="dish">Select a Dish:</label>-->
+<!--     <select name="dish">-->
+<!--         <option value="pizza">Pizza</option>-->
+<!--         <option value="burger">Burger</option>-->
+<!--         <option value="pasta">Pasta</option>-->
+<!--         <option value="salad">Salad</option>-->
+<!--     </select>-->
+<!--    <input type="submit" name="submit" value="Order">-->
+<!--</form>-->
+
+<?php  
+
+//    if(isset($_POST['submit'])){
+//        $dish = $_POST['dish'];
+//
+//        switch ($dish){
+//            case "<p>You order a Pizza - $12. A delicious cheesy delight!</p>";
+//            break;
+//            case "burger":
+//                echo "<p>You order a Burget - $8. Juicy and grilled to perfection!</p>";
+//                break;
+//            case  "pasta":
+//                echo "<p>You order pasta - $10. Served with a creamy sauce.</p>";
+//                break;
+//            case  "salad";
+//            echo  "<p>You order a salad - $6. Fresh and healthy!</p>";
+//            break;
+//            default:
+//                echo "<p>Pleese select a valid dish.</p>";
+//        }
+//    }
+?>
+
+<?php
+//session_start();
+//
+//if (!isset($_SESSION['random_number'])) {
+//    $_SESSION['random_number'] = rand(1, 10); // Generate a random number between 1 and 10
+//}
+//
+//$random_number = $_SESSION['random_number'];
+//
+//if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//    $guess = intval($_POST['guess']);
+//
+//    if ($guess == $random_number) {
+//        echo "<p>🎉 Congratulations! You guessed the right number: $random_number</p>";
+//        session_destroy(); // Reset game
+//    } else {
+//        echo "<p>❌ Wrong guess! Try again.</p>";
+//    }
+//}
+//?>
+<!-- -->
+<!--<form method="POST">-->
+<!--    <label>Guess a number (1-10):</label>-->
+<!--    <input type="number" name="guess" min="1" max="10" required>-->
+<!--    <button type="submit">Submit</button>-->
+<!--</form>-->
+
+
+<?php
+
+//    $start_point = 1;
+//    do{
+//        echo "This is start point $start_point <br>";
+//        $start_point+=2;
+//    } while($start_point<=20)
+
+
+//$x = 1;
+//
+//do{
+//    echo "Number: $x \n";
+//    $x++;
+//} while ($x <= 5);
+
+?>
 
