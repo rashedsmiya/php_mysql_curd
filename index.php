@@ -344,5 +344,62 @@
 //    $x++;
 //} while ($x <= 5);
 
-?>
 
+//$info = array("hadijaman", "0987654321", "01", "098876");
+//$count_array_value = count($info);
+//
+//for($i=0;$i<$count_array_value; $i++){
+//    echo $info[$i] . "</br>";
+//}
+
+//$infos = array(1,2,3,4,5,6,7,8,9);
+//foreach ($infos as $single_value){
+//    echo $single_value . "<br>";
+//}
+
+//$person = ["name" => "John", "age" => 30, "city" => "New Yourk"];
+//
+//foreach ($person as $key => $value){
+//    echo "$key: $value <br>";
+//}
+
+//$num = 1;
+//
+//while ($num <= 10){
+//    echo "Number: $num <br>";
+//    $num++;
+//}
+
+//
+//$num = 0;
+//$counter = 1;
+//
+//while ($counter <= 50){
+//    $sum += $counter; // Add counter to sum
+//    $counter++;
+//}
+//
+//echo  "The sum of number form 1 to 50 is: $sum";
+
+
+//$sum = 0;
+//$counter = 1;
+//
+//while ($counter <= 50){
+//    $sum += $counter;
+//    $counter++;
+//}
+//
+//echo "The sum of number from 1 to 50 is: $sum";
+
+//$colors = ["red", "green", "blue", "yellow"];
+//
+//$i = 0;
+//
+//while ($i < count($colors)){
+//    echo "colors: " . $colors[$i] . "<br>";
+//    $i++;
+//}
+
+
+?>
