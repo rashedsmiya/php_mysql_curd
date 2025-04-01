@@ -33,7 +33,7 @@
           Adding and Deleting Input fields Dynamically
       </strong>
     <div style="width:40%;">
-        <form>
+        <form action="example.php" method="post">
             <div class="">
                 <div class="col-lg-12">
                     <div id="row">
@@ -44,9 +44,9 @@
                                         type="button">
                                     <i class="bi bi-trash"></i>
                                     Delete
-                                </button>
+                                </button>  
                             </div>
-                            <input type="text" class="form-control m-input">
+                            <input type="text" name="student[]" class="form-control m-input">
                         </div>
                     </div>
 
@@ -56,6 +56,7 @@
                         </span> ADD
                     </button>
                 </div>
+                <button type="submit">Save</button>
             </div>
         </form>
     </div>
@@ -66,9 +67,9 @@
                 '<div class="input-group-prepend">' +
                 '<button class="btn btn-danger" id="DeleteRow" type="button">' +
                 '<i class="bi bi-trash"></i> Delete</button> </div>' +
-                '<input type="text" class="form-control m-input"> </div> </div>';
+                '<input type="text" name="student[]" class="form-control m-input"> </div> </div>';
 
-            $('#newinput').append(newRowAdd);
+            $('#newinput').append(newRowAdd);  
         });
         $("body").on("click", "#DeleteRow", function () {
             $(this).parents("#row").remove();
