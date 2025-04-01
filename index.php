@@ -277,7 +277,7 @@
 <!--    <input type="submit" name="submit" value="Order">-->
 <!--</form>-->
 
-<?php  
+<?php
 
 //    if(isset($_POST['submit'])){
 //        $dish = $_POST['dish'];
@@ -401,5 +401,33 @@
 //    $i++;
 //}
 
+//$number = array(1,2,3,4,5,6,7);
+//
+//if(!function_exists('check_even')){
+//    function check_even($var)
+//    {
+//      return !($var & 1);
+//    }
+//}
+//
+//$myoddnumber = array_filter($number, 'check_even');
+//print_r($myoddnumber);
 
-?>
+
+// $person_info_one = array(
+//         "id" => 10,
+//         "name" => "hadijamn",
+//         "email" => "rashedmiya@gmail.com",
+//         "phone" => "0987654321",
+// );
+
+// $person_info_two = array(
+//   "id" => 11,
+//   "name" => "rowza",
+//     "email" => "rowza@gmail.com",
+//     "cell" => "0987654321"
+// );
+
+// $match = array_intersect_key($person_info_one, $person_info_two);
+// print_r($match);
+ 
